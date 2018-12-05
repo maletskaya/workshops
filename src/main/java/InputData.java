@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class InputData {
 
-    private static String name;
 
     public static int getAge(Scanner scanner) {
         try {
@@ -21,11 +20,11 @@ public class InputData {
             if (!name.matches("[a-zA-Z]+")) {
                 throw new Exception("Name contains not only letters");
             }
+            return name;
         } catch (Exception e) {
             System.out.println(e.getMessage());
             return getName(scanner);
 
         }
-        return String.valueOf(name);
     }
 }
