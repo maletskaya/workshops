@@ -27,4 +27,19 @@ public class InputData {
 
         }
     }
+
+    public static int[] getArray(Scanner scanner) {
+        System.out.println("Put 10 digits");
+
+        int[] arr = new int[10];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = scanner.nextInt();
+        }
+        for (int i = arr.length-1; i >= 0; i--) {
+            System.out.println(arr[i]);
+        }
+        return arr;
+    }
 }
+

@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +11,8 @@ public class Main {
         int age = InputData.getAge(scanner);
         String name = InputData.getName(scanner);
 
-        System.out.println("My name is" + " " + name + " " + "and I amd " + age + " " + "years old");
-
+//        System.out.println("My name is" + " " + name + " " + "and I amd " + age + " " + "years old");
+        int[] arr = InputData.getArray(scanner);
+        System.out.println(Arrays.toString(arr));
     }
 }
