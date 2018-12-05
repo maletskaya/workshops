@@ -16,17 +16,17 @@ public class MyName {
     }
 
     private static String getName(Scanner scanner) {
-//        try {
+        try {
             System.out.println("Enter your name");
             name = scanner.nextLine();
-            if (name.matches("[A-Za-Z]")) {
-                return name;
-            } else {
-                System.out.println("It's not a character");
+            if (!name.matches("[a-zA-Z]+")) {
+                throw new Exception("Name contains not only letters");
             }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            return getName(scanner);
 
-//        } catch (Exception e) {
-//            return getName(scanner);
+        }
         return name;
     }
 
