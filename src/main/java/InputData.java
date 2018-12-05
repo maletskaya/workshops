@@ -28,7 +28,7 @@ public class InputData {
         }
     }
 
-    public static int[] getArray(Scanner scanner) {
+    public static int[] getReverseArray(Scanner scanner) {
         System.out.println("Put 10 digits");
 
         int[] arr = new int[10];

@@ -12,7 +12,7 @@ public class Main {
         String name = InputData.getName(scanner);
 
 //        System.out.println("My name is" + " " + name + " " + "and I amd " + age + " " + "years old");
-        int[] arr = InputData.getArray(scanner);
+        int[] arr = InputData.getReverseArray(scanner);
         System.out.println(Arrays.toString(arr));
     }
 }
