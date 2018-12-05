@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class InputData {
 
 
-    public static int getAge(Scanner scanner) {
+    public int getAge(Scanner scanner) {
         try {
             System.out.println("Enter your age");
             String age = scanner.nextLine();
@@ -13,7 +13,7 @@ public class InputData {
         }
     }
 
-    public static String getName(Scanner scanner) {
+    public String getName(Scanner scanner) {
         try {
             System.out.println("Enter your name");
             String name = scanner.nextLine();
