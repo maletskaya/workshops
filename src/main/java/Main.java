@@ -14,6 +14,7 @@ public class Main {
         System.out.println("My name is" + " " + name + " " + "and I amd " + age + " " + "years old");
         InputData.getReverseArray(scanner);
 
+
     }
 
 }
