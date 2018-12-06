@@ -11,8 +11,9 @@ public class Main {
         int age = InputData.getAge(scanner);
         String name = InputData.getName(scanner);
 
-        System.out.println("My name is" + " " + name + " " + "and I amd " + age + " " + "years old");
-        InputData.getReverseArray(scanner);
+//        System.out.println("My name is" + " " + name + " " + "and I amd " + age + " " + "years old");
+//        InputData.getReverseArray(scanner);
+        InputData.getArrays(scanner);
 
 
     }

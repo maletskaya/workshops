@@ -44,5 +44,23 @@ public class InputData {
         }
 
     }
+
+    public static void getArrays(Scanner scanner) {
+        System.out.println("Put your array form 20 digits");
+
+        int[] arr = new int[20];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = scanner.nextInt();
+
+            if (arr[i] % 2 == 0) {
+                System.out.println(arr[i]);
+
+            }
+            if (arr[i] % 2 != 0) {
+                System.out.println(arr[i]);
+            }
+        }
+    }
 }
 
