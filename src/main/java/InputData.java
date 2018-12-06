@@ -1,5 +1,3 @@
-import com.sun.tools.javac.util.ArrayUtils;
-
 import java.util.Scanner;
 
 public class InputData {
@@ -46,7 +44,7 @@ public class InputData {
     }
 
     public static void getArrays(Scanner scanner) {
-        System.out.println("Put your array form 20 digits");
+        System.out.println("Put your array: 20 digits");
 
         int[] arr = new int[20];
 
